@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+
+.main-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 70px;
+   color:#1D5B79;
+    padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid-layout{
+    padding-top: 7vh;
+
+}
+.colum-style{
+    padding-bottom: 4vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card:hover{
+transform:  scale(1.15);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card{
+    transition: all 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.h1{
+    color: #7286D3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer{
+    padding-bottom: 80px;
+    border: 0px solid;
+    background-color: white;
+
+}
+
+.list-group{
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.list-group-item{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media all and (max-width:720px){
+    .list-group-item{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
